@@ -14,7 +14,7 @@ const NavBar = (props: { active: any }) => {
         <nav className="navbar h-28">
           <div className="nav-background flex items-center w-[100vw] lg:w-[68vw] justify-between">
             <ul className="">
-              <li className="p-4 ">
+              <li className="lg:p-4 ">
                 <Logo width={80} />
               </li>
             </ul>
