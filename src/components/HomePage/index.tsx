@@ -76,19 +76,12 @@ const HomePage = (props:any) => {
       <div className="page-content ">
         <NavBar active="home" />
         <div className="content-wrapper">
-          {/* <div className="homepage-logo-container">
-            <div style={logoStyle}>
-              <Logo width={logoSize} link={false} />
-            </div>
-          </div> */}
-
           <div className="homepage-container">
             <div className="homepage-first-area">
               <div className="homepage-first-area-left-side">
                 <div className="title homepage-title">
                   {INFO.homepage.title}
                 </div>
-
                 <div className="subtitle homepage-subtitle">
                   {INFO.homepage.description}
                 </div>
@@ -147,11 +140,9 @@ const HomePage = (props:any) => {
                 />
               </a>
             </div>
-
             <div className="homepage-projects">
               <AllProjects />
             </div>
-
             <div className="homepage-after-title">
               <div className="homepage-articles">
                 {myArticles.map((article, index) => (
@@ -174,7 +165,6 @@ const HomePage = (props:any) => {
                 <Works />
               </div>
             </div>
-
             <div className="page-footer">
               <Footer />
             </div>
