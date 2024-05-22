@@ -82,7 +82,6 @@ const HomePage = (props:any) => {
                 <div className="title homepage-title">
                   {INFO.homepage.title}
                 </div>
-
                 <div className="subtitle homepage-subtitle">
                   {INFO.homepage.description}
                 </div>
@@ -141,11 +140,9 @@ const HomePage = (props:any) => {
                 />
               </a>
             </div>
-
             <div className="homepage-projects">
               <AllProjects />
             </div>
-
             <div className="homepage-after-title">
               <div className="homepage-articles">
                 {myArticles.map((article, index) => (
@@ -168,7 +165,6 @@ const HomePage = (props:any) => {
                 <Works />
               </div>
             </div>
-
             <div className="page-footer">
               <Footer />
             </div>
